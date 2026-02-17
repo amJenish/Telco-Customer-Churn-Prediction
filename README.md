@@ -1,6 +1,6 @@
 # Telco Customer Churn Prediction --- Data Analytics Project
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes customer churn behavior using the Telco Customer
 Churn dataset.\
@@ -10,7 +10,7 @@ targeted retention strategies.
 
 ------------------------------------------------------------------------
 
-## 🎯 Objective
+## Objective
 
 -   Predict whether a customer will churn (Yes/No).
 -   Identify the most influential features contributing to churn.
@@ -19,7 +19,7 @@ targeted retention strategies.
 
 ------------------------------------------------------------------------
 
-## 📊 Dataset Summary
+## Dataset Summary
 
 -   **Total Records (after cleaning):** 7,032 customers\
 -   **Target Variable:** `Churn` (binary classification)\
@@ -39,7 +39,7 @@ targeted retention strategies.
 
 ------------------------------------------------------------------------
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 -   Converted `TotalCharges` to numeric and removed invalid entries.
 -   Encoded categorical variables.
@@ -54,7 +54,7 @@ targeted retention strategies.
 
 ------------------------------------------------------------------------
 
-## 🔎 Exploratory Data Analysis (Key Insights)
+##  Exploratory Data Analysis (Key Insights)
 
 -   Customers with **month-to-month contracts** churn more frequently.
 -   **Short tenure (\<12 months)** customers show higher churn
@@ -67,7 +67,7 @@ targeted retention strategies.
 
 ------------------------------------------------------------------------
 
-## 🤖 Models Evaluated
+## Models Evaluated
 
 -   K-Nearest Neighbors (KNN)
 -   Support Vector Machine (SVM)
@@ -77,7 +77,7 @@ targeted retention strategies.
 
 ------------------------------------------------------------------------
 
-## 📈 Model Performance (Test Set)
+## Model Performance (Test Set)
 
   Model                   Accuracy    ROC-AUC
   ----------------------- ----------- -----------
@@ -99,7 +99,7 @@ Churn Class Metrics: - Precision: 0.652\
 
 ------------------------------------------------------------------------
 
-## 🏆 Key Drivers of Churn (Feature Importance)
+## Key Drivers of Churn (Feature Importance)
 
 1.  Contract type (month-to-month)
 2.  Tenure
@@ -110,7 +110,7 @@ Churn Class Metrics: - Precision: 0.652\
 
 ------------------------------------------------------------------------
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 1.  Offer incentives to convert month-to-month customers to long-term
     contracts.
@@ -121,7 +121,7 @@ Churn Class Metrics: - Precision: 0.652\
 
 ------------------------------------------------------------------------
 
-## ⚠️ Limitations
+## Limitations
 
 -   Moderate class imbalance affects recall.
 -   No cost-sensitive optimization included.
@@ -138,7 +138,7 @@ Churn Class Metrics: - Precision: 0.652\
 
 ------------------------------------------------------------------------
 
-## 🛠 Tech Stack
+## Tech Stack
 
 -   Python
 -   Pandas / NumPy
@@ -148,7 +148,7 @@ Churn Class Metrics: - Precision: 0.652\
 
 ------------------------------------------------------------------------
 
-## 📎 Conclusion
+## Conclusion
 
 This project demonstrates a full end-to-end data science workflow: -
 Data cleaning\
