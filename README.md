@@ -3,7 +3,7 @@
 ## Project Overview
 
 This project analyzes customer churn behavior using the Telco Customer
-Churn dataset.\
+Churn dataset.
 The goal is to identify key factors influencing churn and build
 predictive models to help businesses reduce customer attrition through
 targeted retention strategies.
@@ -21,9 +21,9 @@ targeted retention strategies.
 
 ## Dataset Summary
 
--   **Total Records (after cleaning):** 7,032 customers\
--   **Target Variable:** `Churn` (binary classification)\
--   **Churn Rate:** \~26.6%
+-   **Total Records (after cleaning):** 7,032 customers
+-   **Target Variable:** `Churn` (binary classification)
+-   **Churn Rate:** 26.6%
 
 ### Key Features:
 
@@ -57,7 +57,7 @@ targeted retention strategies.
 ##  Exploratory Data Analysis (Key Insights)
 
 -   Customers with **month-to-month contracts** churn more frequently.
--   **Short tenure (\<12 months)** customers show higher churn
+-   **Short tenure (<12 months)** customers show higher churn
     probability.
 -   **Higher monthly charges** correlate with higher churn.
 -   **Fiber optic users without security/support services** churn at
@@ -93,8 +93,8 @@ targeted retention strategies.
 -   Strong ROC-AUC performance
 -   Balanced precision and recall
 
-Churn Class Metrics: - Precision: 0.652\
-- Recall: 0.488\
+Churn Class Metrics: - Precision: 0.652
+- Recall: 0.488
 - F1-Score: 0.559
 
 ------------------------------------------------------------------------
@@ -151,10 +151,10 @@ Churn Class Metrics: - Precision: 0.652\
 ## Conclusion
 
 This project demonstrates a full end-to-end data science workflow: -
-Data cleaning\
-- Feature engineering\
-- Exploratory analysis\
-- Model comparison\
+Data cleaning
+- Feature engineering
+- Exploratory analysis
+- Model comparison
 - Business-focused interpretation
 
 The final model provides strong predictive performance and actionable
